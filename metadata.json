@@ -1,0 +1,6 @@
+{
+  "name": "Social Vibe Media",
+  "description": "Social Vibe Media turning ideas into refined digital experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

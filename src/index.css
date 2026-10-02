@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "PP Editorial Old";
+  src: url("https://framerusercontent.com/assets/x6au5kmAfEv8fvHu4tQyHMpyw.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PP Editorial Old";
+  src: url("https://framerusercontent.com/assets/V1lYpLLJSlwYwh411EaQiWCu3qk.woff2") format("woff2");
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Apfel Grotezk";
+  src: url("https://framerusercontent.com/assets/KwK0fH9Qx1gAi2nY6HV637MnF0.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@theme {
+  --font-sans: "Apfel Grotezk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "PP Editorial Old", ui-serif, Georgia, serif;
+}
