@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Eye, EyeOff, MessageCircle, ArrowUpRight, ArrowRight } from 'lucide-react';
+import { Eye, EyeOff, ArrowUpRight, ArrowRight } from 'lucide-react';
 
 export default function PasswordOverlay({ children }: { children: React.ReactNode }) {
   const [password, setPassword] = useState('');
@@ -138,7 +138,7 @@ export default function PasswordOverlay({ children }: { children: React.ReactNod
               className="w-full max-w-4xl bg-white border border-black/10 rounded-[24px] md:rounded-[28px] p-6 sm:p-8 md:p-10 shadow-[0_12px_40px_-12px_rgba(0,0,0,0.06)] my-auto"
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 items-center">
-                {/* Kolom Kiri: Floating Image 4:5 & Tombol WhatsApp */}
+                {/* Kolom Kiri: Floating Image 4:5 & Tombol Dapatkan Akses */}
                 <div className="flex flex-col items-center justify-center gap-4 w-full">
                   <motion.div
                     animate={{ y: [0, -10, 0] }}
@@ -150,20 +150,19 @@ export default function PasswordOverlay({ children }: { children: React.ReactNod
                     className="relative w-full max-w-[280px] sm:max-w-[320px] aspect-[4/5] rounded-[18px] overflow-hidden shadow-[0_18px_36px_-12px_rgba(0,0,0,0.12)] border border-black/5 bg-[#f8f8f8] group"
                   >
                     <img
-                      src="https://cdn.scalev.com/uploads/1789973316/QxXPKQstRfzjJwwSOCabmQ/1789973315276-142b120d-e4f8-405e-a2b9-021dfcaaa480.webp"
+                      src="https://cdn.scalev.com/uploads/1791001068/7Zh_oxmTGfgdo5eFVr-0sw/1791001066068-Group-1000008772.webp"
                       alt="Social Vibe Media"
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                   </motion.div>
 
                   <a
-                    href="https://wa.link/vl9ahr"
+                    href="https://lynk.id/yunusrhmn/l4qq6xg30lze"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group w-full max-w-[280px] sm:max-w-[320px] flex items-center justify-center gap-2 bg-[#2b2b2b] text-white rounded-[12px] py-3.5 px-6 font-sans text-[13px] font-medium tracking-wide uppercase transition-all hover:bg-black hover:scale-[1.02] active:scale-95 shadow-sm text-center"
                   >
-                    <MessageCircle className="w-4 h-4 text-[#25D366]" />
-                    <span>Hubungi via WhatsApp</span>
+                    <span>Dapatkan Akses</span>
                     <ArrowUpRight className="w-4 h-4 text-white/70 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </a>
                 </div>
@@ -181,7 +180,7 @@ export default function PasswordOverlay({ children }: { children: React.ReactNod
                   <div className="text-center md:text-left mb-8">
                     <h2 className="font-serif text-[28px] text-[#2b2b2b] mb-2">Akses Terbatas</h2>
                     <p className="font-sans text-[14px] text-[#2b2b2bcc] leading-relaxed">
-                      Masukkan sandi akses untuk menggunakan aplikasi ini, atau hubungi kami melalui WhatsApp jika belum memiliki akses.
+                      Masukkan sandi akses untuk menggunakan aplikasi ini, atau klik tombol Dapatkan Akses jika belum memiliki akses.
                     </p>
                   </div>
 
